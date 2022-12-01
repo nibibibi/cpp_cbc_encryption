@@ -27,7 +27,7 @@ static const char IPR[64] = {
     35, 3, 43, 11, 51, 19, 59, 27,
     34, 2, 42, 10, 50, 18, 58, 26,
     33, 1, 41,  9, 49, 17, 57, 25
-}
+};
 
 // Let E denote a function which takes a block of 32 bits as input 
 // and yields a block of 48 bits as output. 
@@ -42,7 +42,7 @@ static const char E_TABLE[48] = {
     20, 21, 22, 23, 24, 25, // Block 6
     24, 25, 26, 27, 28, 29, // Block 7
     28, 29, 30, 31, 32,  1  // Block 8
-}
+};
 
 // Each of the unique selection functions S1,S2,...,S8, takes 
 // a 6-bit block as input and yields a 4-bit block as output 
