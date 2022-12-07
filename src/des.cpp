@@ -80,6 +80,7 @@ uint64_t DES::fp(uint64_t block) {
         result <<= 1;
         result |= (block >> (64-IPR[i])) & 0x0000000000000001;
     }
+    return result;
 }
 
 void DES::feistel(uint32_t &L, uint32_t &R, uint32_t F) {
